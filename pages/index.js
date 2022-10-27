@@ -3,6 +3,7 @@ import Head from 'next/head'
 // components
 import Header from '../components/Header'
 import HeroSection from '../components/HeroSection';
+import Specialities from '../components/Specialities';
 
 export default function Home() {
   return (
@@ -14,9 +15,10 @@ export default function Home() {
       </Head>
 
       <Header />
-      <div className='background'></div>
+      {/* <div className='background'></div> */}
       <main className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4 relative'>
         <HeroSection />
+        <Specialities />
       </main>
 
     </>

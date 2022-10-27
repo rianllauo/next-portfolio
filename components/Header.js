@@ -20,15 +20,15 @@ const Header = () => {
 
                 <div className='md:flex md:flex-row-reverse md:items-center'>
                     <div className='mr-2'>
-                        <button className='px-3 py-2 text-xs font-semibold bg- rounded-md bg-indigo-500 text-white'>Contact Me</button>
+                        <button className='px-3 py-2 text-xs font-semibold rounded-md bg-indigo-500 text-white hover:bg-indigo-800 transition duration-300'>Contact Me</button>
                     </div>
 
                     <div className='hidden md:block'>
                         <div className='text-sm flex items-center'> 
                             <a href="#" className='mr-4 font-semibold text-indigo-500'>Home</a>
-                            <a href="#" className='mr-4 font-semibold text-gray-600'>About</a>
-                            <a href="#" className='mr-4 font-semibold text-gray-600'>portfolio</a>
-                            <a href="#" className='mr-4 font-semibold text-gray-600'>Project</a>
+                            <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>About</a>
+                            <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>portfolio</a>
+                            <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>Project</a>
                         </div>
                     </div>        
                 </div>

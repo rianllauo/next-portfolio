@@ -1,35 +1,44 @@
 import React from 'react'
 import Image from 'next/image'
 
-// icon
-import github from '/public/img/github.png'
-import instagram from '/public/img/instagram.png'
-import twitter from '/public/img/twitter.png'
+// image & icon
+import github from '/public/icons/github.svg'
+import instagram from '/public/icons/instagram.svg'
+import twitter from '/public/icons/twitter.svg'
+import anim from '/public/img/programing.svg'
 
 const HeroSection = () => {
     return (
-        <div className="mt-28 md:mt-32 lg:mt-40 md:flex md:flex-col md:justify-center items-center" >
-            <div className='text-heebo md:text-center '>
-                <h3 className='text-xs lg:text-sm text-indigo-500 font-extrabold tracking-wider'>WELCOME TO MY WEBSITE</h3>
-                <h1 className='md:hidden text-3xl  mt-2 font-bold leading-none'>{`Hi, I'am Rianlauo`} <br/> <span className='text-indigo-500'>Web Developer</span></h1>
-                <h1 className='hidden md:block lg:text-5xl text-3xl mt-2 font-bold leading-none'>{`Hi, I'am Rianlauo`}<span className='text-indigo-500'> Web Developer</span></h1>
-                <p className='md:max-w-[80%] md:mx-auto max-w-full text-sm lg:text-base mt-2 text-gray-700'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        <div className="mt-28 lg:mt-38 md:flex md:flex-col md:justify-center items-center" >
+            <div className='flex flex-col items-center md:flex-row-reverse'>
+                <div className='md:ml-8'>
+                    <h1 className='text-3xl lg:text-4xl font-medium '>An Profesional<br/> Web Developer</h1>
+                    <p className='mt-3 text-sm text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <div className='mt-7'>
+                        <a href="" className='px-4 py-3 mr-2 font-semibold bg-indigo-500 text-white rounded-md text-sm hover:bg-indigo-800 transition duration-300'>Contact Me</a>
+                        <a href="" className='px-4 py-3 font-semibold text-indigo-900 rounded-md text-sm bg-indigo-200 hover:bg-indigo-300 transition duration-300'>Download CV</a>
+                    </div>
+                    <div className='flex items-center mt-10'>
+                        <p className='text-sm text-gray-500 mr-3'>Follow me on</p>
+                        <div className='flex items-center justify-between'>
+                            <a href="#" className='flex items-center p-2 mr-2 border border-gray-500 rounded-full'>
+                                <Image src={github} alt="instagram" width='16px' height='16px'/>
+                            </a>
+                            <a href="#" className='flex items-center p-2 mr-2 border border-gray-500 rounded-full'>
+                                <Image src={instagram} alt="instagram" width='16px' height='16px'/>
+                            </a>
+                            <a href="#" className='flex items-center p-2 mr-2 border border-gray-500 rounded-full'>
+                                <Image src={twitter} alt="instagram" width='16px' height='16px'/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='mt-12'>
+                    <Image src={anim} alt="animation" width='600px' height='400px' />
+                </div>
             </div>
-            <div className='mt-5'>
-                <a href="" className='px-4 py-3 mr-2 font-semibold bg-indigo-500 text-white rounded-md text-sm'>Contact Me</a>
-                <a href="" className='px-4 py-3 font-semibold text-indigo-900 rounded-md text-sm bg-indigo-200'>Download CV</a>
-            </div>
-            <div className='mt-6 w-24 mx-auto flex items-center justify-around'>
-                <a href="#" >
-                    <Image src={github} alt="github" width='24px' height='24px' />
-                </a>
-                <a href="#">
-                    <Image src={instagram} alt="github" width='24px' height='24px' />
-                </a>
-                <a href="">
-                    <Image src={twitter} alt="github" width='24px' height='24px' />
-                </a>
-            </div>
+            
         </div>
     )
 }
