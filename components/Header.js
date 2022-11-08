@@ -8,7 +8,7 @@ const Header = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
-    <header className='w-full px-6 py-4 bg-white/[.80] drop-shadow-sm fixed top-0 z-50' >
+    <header className='w-full px-6 py-4 bg-white/[.80] drop-shadow-sm fixed top-0 z-20' >
         <div className='md:max-w-screen-md lg:max-w-screen-lg mx-auto flex items-center justify-between'>
             <div>
                 <a href="#" className='text-heebo text-xl font-semibold'>
@@ -42,7 +42,8 @@ const Header = () => {
                         onClick={() => {
                             setIsNavExpanded(!isNavExpanded);
                         }}>
-                            <Image src={iconMenu} alt="menu" width="36px" height="36px" />
+                            <Image src={iconClose} alt="menu" width="36px" height="36px" />
+                            
                         </button>
                         :
 
@@ -51,13 +52,13 @@ const Header = () => {
                         onClick={() => {
                             setIsNavExpanded(!isNavExpanded);
                         }}>
-                            <Image src={iconClose} alt="menu" width="36px" height="36px" />
+                            <Image src={iconMenu} alt="menu" width="36px" height="36px" />
                         </button>
                     }
                     
                 </div>
   
-                <div className={`${isNavExpanded ? "hidden" : "block"} md:hidden absolute w-full top-16 left-0 h-80 flex flex-col items-center bg-white/[.95] drop-shadow-sm`}>
+                <div className={`${isNavExpanded ? "block" : "hidden"} md:hidden absolute w-full top-16 left-0 h-80 flex flex-col items-center bg-white/[.95] drop-shadow-sm`}>
                     <div className='w-full h-full flex flex-col font-semibold items-center justify-evenly text-gray-600 transition duration-300'>
                         <a href="#" className=''>Home</a>
                         <a href="#" className=''>About</a>

@@ -5,6 +5,8 @@ import Header from '../components/Header'
 import HeroSection from '../components/HeroSection';
 import Specialities from '../components/Specialities';
 import AboutSection from '../components/AboutSection';
+import Skills from '../components/Skills';
+import StepWork from '../components/StepWork';
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
         <HeroSection />
         <Specialities />
         <AboutSection />
+        <Skills />
+        <StepWork />
       </main>
 
     </>

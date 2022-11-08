@@ -14,19 +14,19 @@ const Specialities = () => {
 
         <div className='mt-10 grid grid-row-3 md:grid-cols-3 gap-4 md:gap-3'>
             <div className='p-6 bg-indigo-50 rounded-md shadow-lg shadow-indigo-100'>
-                <Image src={monitor} alt="monitor"  width="22px" height="22px"/>
-                <h2 className='text-lg mt-1'>Web Designer</h2>
-                <p className='text-xs text-gray-600 mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Image src={monitor} alt="monitor" width="22px" height="22px"/>
+                <h2 className='text-lg mt-1 lg:text-xl '>Web Designer</h2>
+                <p className='text-xs lg:text-sm text-gray-600 mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div className='p-6 bg-indigo-50 rounded-md shadow-lg shadow-indigo-100'>
-                <Image src={code} alt="code"  width="22px" height="22px"/>
-                <h2 className='text-lg mt-1'>Web Developer</h2>
-                <p className='text-xs text-gray-600 mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Image src={code} alt="code" width="22px" height="22px"/>
+                <h2 className='text-lg mt-1 lg:text-xl'>Web Developer</h2>
+                <p className='text-xs lg:text-sm text-gray-600 mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div className='p-6 bg-indigo-50 rounded-md shadow-lg shadow-indigo-100'>
                 <Image src={penTool} alt="penTool"  width="22px" height="22px"/>
-                <h2 className='text-lg mt-1'>UI & UX Design</h2>
-                <p className='text-xs text-gray-600 mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2 className='text-lg mt-1 lg:text-xl'>UI & UX Design</h2>
+                <p className='text-xs lg:text-sm text-gray-600 mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
     </div>
