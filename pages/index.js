@@ -7,6 +7,9 @@ import Specialities from '../components/Specialities';
 import AboutSection from '../components/AboutSection';
 import Skills from '../components/Skills';
 import StepWork from '../components/StepWork';
+import Portfolio from '../components/Portfolio';
+import BackTopButton from '../components/BackTopButton';
+import MyTools from '../components/MyTools';
 
 export default function Home() {
   return (
@@ -18,14 +21,22 @@ export default function Home() {
       </Head>
 
       <Header />
-      {/* <div className='background'></div> */}
+      <BackTopButton />
+      <div className='background -z-10'></div>
       <main className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
         <HeroSection />
         <Specialities />
         <AboutSection />
         <Skills />
-        <StepWork />
       </main>
+      <Portfolio />
+      
+      <div className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
+        <StepWork />
+        <MyTools />
+      </div>
+
+      
 
     </>
   )

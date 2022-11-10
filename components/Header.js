@@ -25,8 +25,8 @@ const Header = () => {
 
                     <div className='hidden md:block'>
                         <div className='text-sm flex items-center'> 
-                            <a href="#" className='mr-4 font-semibold text-indigo-500'>Home</a>
-                            <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>About</a>
+                            <a href="#home" className='mr-4 font-semibold text-indigo-500'>Home</a>
+                            <a href="#about" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>About</a>
                             <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>portfolio</a>
                             <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>Project</a>
                         </div>
@@ -60,10 +60,10 @@ const Header = () => {
   
                 <div className={`${isNavExpanded ? "block" : "hidden"} md:hidden absolute w-full top-16 left-0 h-80 flex flex-col items-center bg-white/[.95] drop-shadow-sm`}>
                     <div className='w-full h-full flex flex-col font-semibold items-center justify-evenly text-gray-600 transition duration-300'>
-                        <a href="#" className=''>Home</a>
-                        <a href="#" className=''>About</a>
-                        <a href="#" className=''>portfolio</a>
-                        <a href="#" className=''>Project</a>
+                        <a href="#home" className='' onClick={() => setIsNavExpanded(false)}>Home</a>
+                        <a href="#about" className='' onClick={() => setIsNavExpanded(false)}>About</a>
+                        <a href="#" className='' onClick={() => setIsNavExpanded(false)}>portfolio</a>
+                        <a href="#" className='' onClick={() => setIsNavExpanded(false)}>Project</a>
                     </div> 
                 </div>
             </div>

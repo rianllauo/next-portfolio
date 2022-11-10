@@ -25,7 +25,7 @@ const AboutSection = () => {
   }
 
   return (
-    <div className='mt-16'>
+    <div id='about' className='pt-16'>
       <div className='flex flex-col items-center justify-center text-center'>
         <h3 className='text-indigo-500 font-medium'>{`Hey...it's Rian`}</h3>
         <h1 className='text-2xl lg:text-3xl font-medium my-3'>Potensional Developer</h1>
