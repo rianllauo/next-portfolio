@@ -10,6 +10,7 @@ import StepWork from '../components/StepWork';
 import Portfolio from '../components/Portfolio';
 import BackTopButton from '../components/BackTopButton';
 import MyTools from '../components/MyTools';
+import ContactMe from '../components/ContactMe';
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <div className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
         <StepWork />
         <MyTools />
+        <ContactMe />
       </div>
 
       

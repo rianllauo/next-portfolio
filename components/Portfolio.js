@@ -7,7 +7,7 @@ import githubIcon from '/public/icons/github.png'
 
 const Portfolio = () => {
   return (
-      <div className='mt-16 w-full py-12 px-6 bg-gradient-to-b from-indigo-500 to-violet-500'>
+      <div id='portfolio' className='mt-16 w-full py-12 px-6 bg-gradient-to-b from-indigo-500 to-violet-500'>
          
          <div className='text-center'>
             <h2 className='text-sm text-white'>My Work</h2>

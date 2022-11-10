@@ -12,7 +12,7 @@ import reactNative from '/public/icons/react-native.png'
 
 const MyTools = () => {
   return (
-    <div className='py-16'>
+    <div className='pt-16'>
       <div className='w-full flex flex-col items-center justify-center'>
          <h2 className='text-sm text-indigo-500 font-medium'>My Tools</h2>
          <h1 className='text-2xl font-medium'>What Tools I Use</h1>

@@ -20,14 +20,14 @@ const Header = () => {
 
                 <div className='md:flex md:flex-row-reverse md:items-center'>
                     <div className='mr-2'>
-                        <button className='px-3 py-2 text-xs font-semibold rounded-md bg-indigo-500 text-white hover:bg-indigo-800 transition duration-300'>Contact Me</button>
+                        <a href='#contact' className='px-3 py-2 text-xs font-semibold rounded-md bg-indigo-500 text-white hover:bg-indigo-800 transition duration-300'>Contact Me</a>
                     </div>
 
                     <div className='hidden md:block'>
                         <div className='text-sm flex items-center'> 
                             <a href="#home" className='mr-4 font-semibold text-indigo-500'>Home</a>
                             <a href="#about" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>About</a>
-                            <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>portfolio</a>
+                            <a href="#portfolio" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>portfolio</a>
                             <a href="#" className='mr-4 font-semibold text-gray-600 hover:text-indigo-500 transition duration-300'>Project</a>
                         </div>
                     </div>        
@@ -62,7 +62,7 @@ const Header = () => {
                     <div className='w-full h-full flex flex-col font-semibold items-center justify-evenly text-gray-600 transition duration-300'>
                         <a href="#home" className='' onClick={() => setIsNavExpanded(false)}>Home</a>
                         <a href="#about" className='' onClick={() => setIsNavExpanded(false)}>About</a>
-                        <a href="#" className='' onClick={() => setIsNavExpanded(false)}>portfolio</a>
+                        <a href="#portfolio" className='' onClick={() => setIsNavExpanded(false)}>portfolio</a>
                         <a href="#" className='' onClick={() => setIsNavExpanded(false)}>Project</a>
                     </div> 
                 </div>
