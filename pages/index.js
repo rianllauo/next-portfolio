@@ -11,6 +11,7 @@ import Portfolio from '../components/Portfolio';
 import BackTopButton from '../components/BackTopButton';
 import MyTools from '../components/MyTools';
 import ContactMe from '../components/ContactMe';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      <BackTopButton />
+      {/* <BackTopButton /> */}
       <div className='background -z-10'></div>
       <main className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
         <HeroSection />
@@ -38,6 +39,7 @@ export default function Home() {
         <ContactMe />
       </div>
 
+      <Footer />
       
 
     </>
