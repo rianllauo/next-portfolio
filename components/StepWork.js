@@ -24,7 +24,7 @@ const StepWork = () => {
                   </div>
                   <div className='w-full'>
                      <h1 className='text-lg font-medium'>Concept Creation</h1>
-                     <p className='text-sm text-gray-500'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>   
+                     <p className='text-sm text-gray-500 dark:text-gray-400'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>   
                   </div>
                </div>
 
@@ -34,7 +34,7 @@ const StepWork = () => {
                   </div>
                   <div className='w-full'>
                      <h1 className='text-lg font-medium'>Sketch Drawing</h1>
-                     <p className='text-sm text-gray-500'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit aut odit aut fugit.</p>   
+                     <p className='text-sm text-gray-500 dark:text-gray-400'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit aut odit aut fugit.</p>   
                   </div>
                </div>
 
@@ -44,7 +44,7 @@ const StepWork = () => {
                   </div>
                   <div className='w-full'>
                      <h1 className='text-lg font-medium'>Final Design</h1>
-                     <p className='text-sm text-gray-500'>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>   
+                     <p className='text-sm text-gray-500 dark:text-gray-400'>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>   
                   </div>
                </div>
 

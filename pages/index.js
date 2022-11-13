@@ -14,6 +14,7 @@ import ContactMe from '../components/ContactMe';
 import Footer from '../components/Footer';
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -22,26 +23,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Header/>
       {/* <BackTopButton /> */}
-      <div className='background -z-10'></div>
-      <main className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
-        <HeroSection />
-        <Specialities />
-        <AboutSection />
-        <Skills />
-      </main>
-      <Portfolio />
-      
-      <div className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
-        <StepWork />
-        <MyTools />
-        <ContactMe />
+      {/* <div className='background -z-10'></div> */}
+
+      <div className='w-full h-full bg:white dark:bg-slate-900 transition duration-300'>
+
+        <main className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
+          <HeroSection />
+          <Specialities />
+          <AboutSection />
+          <Skills />
+        </main>
+        <Portfolio />
+        
+        <div className='w-full md:max-w-screen-md lg:max-w-screen-lg mx-auto px-6 py-4'>
+          <StepWork />
+          <MyTools />
+          <ContactMe />
+        </div>
+
+        <Footer />
+
       </div>
-
-      <Footer />
       
-
+      
+    
     </>
   )
 }

@@ -28,7 +28,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     }
-
     html {
       @apply scroll-smooth;
     }
